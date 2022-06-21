@@ -1,7 +1,7 @@
 {{
     config(
         alias = 'orders_performance'
-        , schema = 'orders'
+        , schema = 'dbt-course-learning'
         , materialized = 'table'
         , cluster_by = ['order_id,user_id']
     )
