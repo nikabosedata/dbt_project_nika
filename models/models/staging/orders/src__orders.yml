@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+
+  - name: stg_order_items
+    meta:
+      owner: "Nika Bose"
+              
+  - name: stg_orders
