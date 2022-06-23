@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: thelook_ecommerce
+  - name: thelookecommerce
 
     tables: &tables_and_tests
 
