@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('thelookecommerce', 'orders') }}
+    select * from {{ source('thelookcommerce', 'orders') }}
 
 )
 
