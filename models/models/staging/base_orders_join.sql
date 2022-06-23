@@ -35,3 +35,4 @@ with order_items as (
 
 select * from orders_overview_joined 
 
+-- performance join model
