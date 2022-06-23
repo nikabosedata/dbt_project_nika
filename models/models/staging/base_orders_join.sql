@@ -25,7 +25,7 @@ with order_items as (
 
     select 
         *
-     from order items 
+     from order_items 
     full join order_gender_statistics
         on order_items.date = order_gender_statistics.date
         and order_items.order_id = order_gender_statistics.order_id
