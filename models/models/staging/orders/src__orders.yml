@@ -1,9 +1,18 @@
 version: 2
 
 sources:
+  - name: thelook_ecommerce
 
-  - name: stg_order_items
-    meta:
-      owner: "Nika Bose"
-              
-  - name: stg_orders
+    tables:
+
+      - name: order_items
+        columns:
+          - name:
+            tests:
+              -
+
+      - name: orders
+        columns:
+          - name:
+            tests: 
+              -
