@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('thelook_ecommerce', 'orders') }}
+    select * from {{ source('thelookecommerce', 'orders') }}
 
 )
 
@@ -24,7 +24,7 @@ with source as (
 , orders_filtered as (
 
     select
-        , date
+        date
         , order_id 
         , gender 
         , number_of_items
