@@ -3,7 +3,7 @@ with source as (
     select * from {{ source('thelookecommerce', 'order_items') }}
 
 )
-
+--adding comment
 , order_items as (
 
     select
