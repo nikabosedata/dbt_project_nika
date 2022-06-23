@@ -7,7 +7,7 @@ with source as (
 , orders as (
 
     select
-        , created_at as date 
+         created_at as date 
         , order_id 
         , user_id 
         , status

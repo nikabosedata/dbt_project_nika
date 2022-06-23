@@ -7,7 +7,7 @@ with source as (
 , order_items as (
 
     select
-        , created_at as date
+         created_at as date
         , order_id 
         , user_id 
         , product_id
