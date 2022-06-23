@@ -3,16 +3,16 @@ version: 2
 sources:
   - name: thelook_ecommerce
 
-    tables:
+    tables: &tables_and_tests
 
       - name: order_items
         columns:
-          - name:
+          - name: id
             tests:
-              -
+              - not_null
 
       - name: orders
         columns:
-          - name:
-            tests: 
-              -
+          - name: user_id
+            tests:
+              - not_null
